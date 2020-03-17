@@ -1,7 +1,9 @@
 body {
-  font-size: 10px;
-  font-weight: 300;
+align-self: center;
+
+width: 1240;
 }
+
 
 .menu {
   display: flex;
@@ -9,15 +11,27 @@ body {
 
   background-color: #ffff;
 }
+.menu p {
+  padding-top: 64px;
+  padding-left: 80px;
+
+  color: #4A4343;
+
+  font-size: 20px;
+}
+
+.menu a:first-child {
+  margin-left: -160px;
+}
 
 a, a:visited {
   text-decoration: none;
 
   color: #4A4343;
 }
-
-.menu p {
-  color: #4A4343;
-
-  font-size: 1em;
+.menu img {
+  width: 60px;
+  height: auto;
+  padding-top: 32px;
+  padding-left: 80px;
 }
