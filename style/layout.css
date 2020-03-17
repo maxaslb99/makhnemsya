@@ -1,7 +1,9 @@
 body {
-align-self: center;
+display: block;
 
-width: 1240;
+width: 1240px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 
@@ -11,6 +13,7 @@ width: 1240;
 
   background-color: #ffff;
 }
+
 .menu p {
   padding-top: 64px;
   padding-left: 80px;
@@ -24,6 +27,10 @@ width: 1240;
   margin-left: -160px;
 }
 
+.mainContent {
+
+}
+
 a, a:visited {
   text-decoration: none;
 
@@ -34,4 +41,8 @@ a, a:visited {
   height: auto;
   padding-top: 32px;
   padding-left: 80px;
+}
+
+h1 {
+  font-size: 70px;
 }
