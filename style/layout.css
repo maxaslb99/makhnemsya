@@ -1,0 +1,23 @@
+body {
+  font-size: 10px;
+  font-weight: 300;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+
+  background-color: #ffff;
+}
+
+a, a:visited {
+  text-decoration: none;
+
+  color: #4A4343;
+}
+
+.menu p {
+  color: #4A4343;
+
+  font-size: 1em;
+}
