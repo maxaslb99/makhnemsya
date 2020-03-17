@@ -1,29 +1,153 @@
-<!DOCTYPE html>
-<html lang="ru" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Махнемся</title>
-      <link rel="stylesheet" href="style/styles.css">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-  </head>
-  <body>
-    <div class="menu">
-      <a  href=><p> Мобильная версия </p></a>
-      <div class="logo">
-        <img  src="img/Лого.png" alt="">
-      </div>
-      <a  href=><p> Веб версия </p></a>
-    </div>
+body {
+display: block;
+overflow-x: hidden;
+overflow-y: scroll;
 
-    <div class="mainContent">
-      <div class="block">
-        <h1>Махнёмся — сервис
-  для тех, кто хочет меняться</h1>
-        <p>Обменивайся знаниями и умениями
-  с другими людьми бесплатно.</p>
-        <button type="Хочу махнеться" name="first"></button>
+width: 100vw;
+}
 
-      </div>
-    </div>
+ p {
+   width: 610px;
+   margin-bottom: 56px;
 
-  </body>
+   font-family: "Circe-Regular";
+   font-size: 24px;
+   line-height: 35px;
+ }
+
+.menu {
+  display: flex;
+  justify-content: center;
+
+  background-color: #ffff;
+}
+
+.menu p {
+  width: 100%;
+  padding-top: 64px;
+  padding-left: 80px;
+
+  color: #4A4343;
+
+  font-family: "Circe-Regular";
+  font-size: 20px;
+}
+
+.menu a:first-child {
+  margin-left: -160px;
+}
+
+.mainContent {
+  width: 1240px;
+  margin-right: auto;
+  margin-left: auto;
+
+}
+
+a, a:visited {
+  text-decoration: none;
+
+  color: #4A4343;
+}
+.menu img {
+  width: 60px;
+  height: auto;
+  padding-top: 32px;
+  padding-left: 80px;
+}
+
+.mainContent h1 {
+  width: 677px;
+  margin-top: 144px;
+  margin-bottom: 48px;
+
+  font-family: "ProximaNova", sans-serif;
+  font-size: 70px;
+  line-height: 72px;
+}
+
+.mainContent p {
+  width: 550px;
+
+  line-height: 40px;
+}
+
+.block p {
+    font-size: 33px;
+}
+
+.mainContent button {
+  align-items: center;
+  justify-content: center;
+
+  width: 330px;
+  height: 64px;
+
+  border: none;
+  border-radius: 13px;
+  background-color: #FFDF4E;
+
+  decoration: none;
+}
+
+.mainContent button p {
+  width: 330px;
+  margin: 0;
+  margin-bottom: 0px;
+
+  font-size: 25px;
+  line-height: 25px;
+}
+.block button {
+  margin-bottom: 300px;
+}
+button::after {
+  decoration: none;
+}
+
+button:hover {
+  background-color: #F7C778;
+}
+
+.block2 {
+  margin-bottom: 528px;
+  margin-left: 210px;
+}
+
+h2  {
+  width: 612px;
+  margin-bottom: 36px;
+
+  font-size: 65px;
+}
+
+.block2 img {
+  position: absolute;
+  top: 1000px;
+  left: -100px;
+
+  height: 724px;
+}
+
+.block3 h2 {
+  margin-left: 524px;
+}
+.block3 p {
+  margin-left: 524px;
+}
+
+.iphone {
+   height: 920px;
+   margin-top: -750px;
+   margin-left: -80px;
+ }
+
+.group {
+    height: 212px;
+    margin-top: 2224px;
+    margin-left: -900px;
+
+ }
+.photo {
+  margin-top: -2180px;
+}
