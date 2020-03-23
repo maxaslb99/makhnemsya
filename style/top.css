@@ -10,7 +10,7 @@ width: 100%;
    width: 610px;
    margin-bottom: 48px;
 
-    color: #4A4343;
+   color: #4A4343;
 
    font-family: "Circe-Regular";
    font-size: 24px;
@@ -19,13 +19,15 @@ width: 100%;
 
 .menu {
   display: flex;
+  justify-content: space-between;
 
   background-color: #ffff;
 }
+
 .logo {
-  margin-right: 580px;
   padding: 0;
 }
+
 a {
   font-family: "Circe-Regular";
 }
@@ -39,7 +41,6 @@ h3 {
 .mainContent .menu p {
   width: auto;
   padding-top: 64px;
-  padding-left: 60px;
 
   color: #4A4343;
 
@@ -47,6 +48,9 @@ h3 {
   font-size: 20px;
 }
 
+.aboutLending {
+  display: flex;
+}
 
 .mainContent {
   width: 1240px;
@@ -85,7 +89,9 @@ a, a:visited {
 
   line-height: 40px;
 }
-
+.mainContent  a {
+    margin-right: 80px;
+}
 .block p {
     font-size: 33px;
 }
@@ -128,8 +134,8 @@ a, a:visited {
   margin-left: 210px;
 }
 
-.mainImg {
-  height: 850px;
+.mainImg2 img {
+  height: 950px;
 }
 
 h2  {
@@ -138,14 +144,14 @@ h2  {
 
   font-size: 65px;
 }
-
-.block2 img {
-  position: absolute;
-  z-index: -300;
-  top: 1015px;
-  left: -15px;
-
-  height: 724px;
+  .block2 img {
+    height: 724px;
+    margin-top: -439px;
+    margin-bottom: -282px;
+    margin-left: -355px;
+}
+.block3 {
+    margin-top: -110px;
 }
 .block3 {
   width: 1640;
@@ -188,9 +194,11 @@ h2  {
 }
 
 .textAbout:first-child {
-/* margin-left: -40px; */
+  margin-left: 30px;
 }
 .textAbout h3 {
+  margin-left: -20px;
+
   text-align: center;
 
   font-family: "ProximaNova", sans-serif;
@@ -211,23 +219,26 @@ h2  {
     margin-top: -708px;
     margin-left: -200px;
 }
-
+.block4 {
+  margin-top: -100px;
+  margin-bottom: -890px;
+}
 .background {
   position: absolute;
   z-index: -200;
 
   width: 1240px;
 }
+
 .block4 a {
   margin-left: 940px;
 
   text-decoration: underline;
 
-  color: #ffffff;
+  color: white;
 
-  font-family: "Circe-Regular";
-  font-size: 20px;
-  font-weight: 400;
+  font-size: 17px;
+
 }
 
 .block5 {
@@ -249,13 +260,150 @@ h2  {
   font-size: 20px;
 }
 .block4 .social-buttons2 {
-position: absolute;
 z-index: 1000;
 
 display: flex;
 
+margin: 20px;
+margin-top: 871px;
+margin-left: -1292px;
+
 transform: rotate(90deg);
 }
 .block4 .social-buttons2 a {
-color: red;
+margin: 20px;
+
+transform: rotate(180deg);
+text-decoration: none;
+
+color: #ffffff;
+}
+@media (max-width: 1390px) {
+  .mainContent {
+    width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .mainContent .menu p {
+
+  }
+  .logo {
+
+  }
+  .mainImg2 img {
+    height: 792px;
+    margin-top: -878px;
+    margin-left: 517px;
+}
+  .mainContent h1 {
+      width: 677px;
+      margin-top: 144px;
+      margin-bottom: 28px;
+
+      color: #4A4343;
+
+      font-family: "ProximaNova", sans-serif;
+      font-size: 60px;
+      line-height: 65px;
+  }
+  .mainContent .block p {
+    font-size: 30px;
+  }
+  .mainContent p {
+    margin-bottom: 30px;
+
+    font-size: 27px;
+    line-height: 36px;
+  }
+  .mainContent .menu a {
+      margin-right: 24px;
+      padding-left: 34px;
+  }
+  .mainContent h2 {
+    width: 557px;
+    margin-bottom: 23px;
+
+    font-size: 55px;
+    line-height: 65px;
+  }
+  .mainContent p {
+    width: 502px;
+
+    font-size: 24px;
+    line-height: 35px;
+  }
+
+  .mainContent .block button p {
+    font-size: 25px;
+}
+
+.block5 img {
+    height: 644px;
+    margin-top: -551px;
+    margin-left: 600px;
+}
+.block5 h2 {
+  width: 500px;
+}
+.two {
+    position: absolute;
+
+    width: 1000px;
+    margin-top: 30px;
+    margin-left: 56vw;
+}
+.textAbout p {
+  width: 280px;
+
+  font-size: 22px;
+  line-height: 27px;
+}
+.textAbout h3 {
+ padding-bottom: 20px;
+
+  font-size: 120px;
+}
+
+.block4 a {
+    margin-left: 734px;
+  }
+  .block4 img {
+    width: 1607px;
+    margin-top: -655px;
+    margin-left: -200px;
+}
+.block4 .social-buttons2 {
+    z-index: 1000;
+
+    display: flex;
+
+    margin: 20px;
+    margin-top: 751px;
+    margin-left: -1109px;
+
+    transform: rotate(90deg);
+}
+.block4 {
+    margin-top: -100px;
+    margin-bottom: -800px;
+}
+img.triangle {
+    width: 680px;
+    margin-top: 100px;
+}
+.back img {
+    margin-top: -15px!important;
+}
+img.ye {
+  margin-top: -50px;
+}
+.CTA .button p {
+    align-self: center;
+
+    margin-top: 33px;
+
+    text-align: center;
+}
+
 }

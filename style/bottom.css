@@ -17,8 +17,7 @@ h2 {
 .button { top: 7064.97px;  left: 205px;  display: flex;  width: 326px;  height: 63px;  margin-top: 80px;  border-radius: 13px;  background: #FFFFFF;
 
  }
-.button:hover { transition: background 0.3s ease, color 0.2s linear;  background: #9BC3CB;
-
+.button:hover { transition: background 0.3s ease, color 0.2s linear;  background: #FFEF94;
  }
 
 .button p {
@@ -75,28 +74,22 @@ a.pink { margin-top: 30px;  margin-right: 24px;  margin-right: 30px;  text-decor
  display: flex;    align-items: center;width: 1240px;  margin-top: 300px;
  }
 
-.fingers p {
- align-items: center;
-
- width: 580px;
-}
 
 .fingers a:hover {
  transform: scale(1.2);  duration: 1;
  }
 
-.CTA {
-  align-items: center;
-
-}
-
-
 .fingers .CTA img { margin-top: 20px;    margin-left: 10px;
  }
-
+.fingers p {
+  margin-bottom: 0;
+}
+.fingers a {
+  margin-right: 20px;;
+}
 .img-one {
      position: absolute;
-     right: 380px;
+    right: 28vw;
      /* width: 300px; */
 
      height: 592px;
@@ -105,7 +98,7 @@ a.pink { margin-top: 30px;  margin-right: 24px;  margin-right: 30px;  text-decor
  }
 
 .two {
- position: absolute;  width: 1000px;  margin-top: 30px;     margin-left: 950px;
+ position: absolute;  width: 1000px;  margin-top: 30px;     margin-left: 62vw;
  }
 
 .CTA {
@@ -124,14 +117,6 @@ img.triangle {
 
   margin-right: auto ;
   margin-left: auto;
-}
-
-.CTA p {
-  margin-top: 50px;
-
-  text-decoration: none;
-
-  direction: none;
 }
 
 .hang1 {
