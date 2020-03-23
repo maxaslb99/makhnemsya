@@ -23,7 +23,7 @@ width: 100%;
   background-color: #ffff;
 }
 .logo {
-  margin-right: 500px;
+  margin-right: 580px;
   padding: 0;
 }
 a {
@@ -159,9 +159,9 @@ h2  {
 }
 
 .iphone {
-   height: 940px;
-   margin-top: -750px;
-   margin-left: -80px;
+  height: 940px;
+  margin-top: -750px;
+  margin-left: -140px;
  }
 
 .group {
@@ -183,10 +183,12 @@ h2  {
   }
 .textAbout {
   width: 400px;
-  margin-left: 50px;
+  margin-right: auto;
+  margin-left: auto;
 }
+
 .textAbout:first-child {
-margin-left: -40px;
+/* margin-left: -40px; */
 }
 .textAbout h3 {
   text-align: center;
@@ -196,7 +198,7 @@ margin-left: -40px;
 }
 
 .textAbout p {
-  width: 350px;
+  width: 344px;
   margin-left: 10px;
 
   text-align: center;
@@ -205,10 +207,11 @@ margin-left: -40px;
 }
 
 .block4 img {
-  width: 1600px;
-  margin-top: -700px;
-  margin-left: -150px;
+    width: 1607px;
+    margin-top: -708px;
+    margin-left: -200px;
 }
+
 .background {
   position: absolute;
   z-index: -200;
@@ -244,4 +247,15 @@ margin-left: -40px;
   color: #467C86;
 
   font-size: 20px;
+}
+.block4 .social-buttons2 {
+position: absolute;
+z-index: 1000;
+
+display: flex;
+
+transform: rotate(90deg);
+}
+.block4 .social-buttons2 a {
+color: red;
 }
