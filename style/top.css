@@ -10,6 +10,8 @@ width: 100%;
    width: 610px;
    margin-bottom: 48px;
 
+    color: #4A4343;
+
    font-family: "Circe-Regular";
    font-size: 24px;
    line-height: 35px;
@@ -26,6 +28,13 @@ width: 100%;
 }
 a {
   font-family: "Circe-Regular";
+}
+h2 {
+    color: #4A4343
+}
+
+h3 {
+    color: #4A4343
 }
 .mainContent .menu p {
   width: auto;
@@ -62,6 +71,8 @@ a, a:visited {
   margin-top: 144px;
   margin-bottom: 48px;
 
+  color: #4A4343;
+
   font-family: "ProximaNova", sans-serif;
   font-size: 70px;
   line-height: 72px;
@@ -69,6 +80,8 @@ a, a:visited {
 
 .mainContent p {
   width: 550px;
+
+  color: #4A4343;
 
   line-height: 40px;
 }
@@ -115,6 +128,10 @@ a, a:visited {
   margin-left: 210px;
 }
 
+.mainImg {
+  height: 850px;
+}
+
 h2  {
   width: 612px;
   margin-bottom: 36px;
@@ -125,8 +142,8 @@ h2  {
 .block2 img {
   position: absolute;
   z-index: -300;
-  top: 1000px;
-  left: -100px;
+  top: 1015px;
+  left: -15px;
 
   height: 724px;
 }
@@ -142,7 +159,7 @@ h2  {
 }
 
 .iphone {
-   height: 920px;
+   height: 940px;
    margin-top: -750px;
    margin-left: -80px;
  }
