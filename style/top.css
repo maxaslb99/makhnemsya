@@ -55,12 +55,6 @@ width: 100%;
 
 } */
 
-
-
-
-
-
-
  p {
    width: 610px;
    margin-bottom: 48px;
@@ -176,13 +170,13 @@ a, a:visited {
 .block button {
   margin-bottom: 300px;
 }
-.block button::after {
-  decoration: none;
-}
+
 
 .block button:hover {
   background-color: #F7C778;
 }
+
+
 
 .block2 {
   margin-bottom: 528px;
