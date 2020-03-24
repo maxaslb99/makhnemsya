@@ -792,3 +792,13 @@ border-bottom: 1px white solid;
 .buy {
   margin: 45vh 45vw;
 } */
+/* .group:hover {
+  z-index: -1;
+
+  transition: 100s;
+  transform: translateX(-10000px);
+}
+
+.iphone {
+  z-index: 100!important;
+} */
