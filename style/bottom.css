@@ -52,23 +52,40 @@ h2 {
 
 .link-to-social {
  display: flex;
+
  margin-top: 20px;
 }
 
 a.pink {
 display: block;
-vertical-align: baseline;
-line-height: .95;
-color: #D9A4FC;
-font-size: 20px;
+
 margin-top: 15px;
-line-height: 25px;
+
+vertical-align: baseline;
+
+color: #D9A4FC;
 border-bottom: 2px #D9A4FC solid;
+
+font-size: 20px;
+line-height: .95;
+line-height: 25px;
+}
+
+.pink2 {
+  text-decoration: none;
+
+  border-bottom: 1px #ffffff solid;
+
+  line-height: .95;
+  line-height: 25px;
+}
+.link a {
+text-decoration-line: none;
 }
 
 .desk-bubbles {
-  padding: 0 63px;
   margin-top: -20px;
+  padding: 0 63px;
 }
 
 
