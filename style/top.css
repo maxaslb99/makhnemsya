@@ -1,3 +1,15 @@
+
+
+* {
+  box-sizing: border-box;
+
+  -webkit-transition: 3s;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
 body {
 display: block;
 overflow-x: hidden;
@@ -5,6 +17,49 @@ overflow-y: scroll;
 
 width: 100%;
 }
+
+.mobile {
+  display: none;
+}
+
+.container {
+  margin: 45vh 45vw;
+}
+
+/* .hover_container {
+  width: 0;
+  height: 0;
+}
+
+.hover_cycle {
+  position: fixed;
+  z-index: -1;
+
+  width: 0;
+  height: 0;
+  margin-top: -5px;
+  margin-left: 25px;
+
+  transition: .6s;
+
+  opacity: 50%;
+  border-radius: 50px;
+  background-color: blue;
+}
+
+.hovered_cycle {
+  width: 100px;
+  height: 100px;
+  margin-top: -55px;
+  margin-left: -25px;
+
+} */
+
+
+
+
+
+
 
  p {
    width: 610px;
@@ -405,5 +460,235 @@ img.ye {
 
     text-align: center;
 }
+
+}
+@media screen and (max-device-width: 500px) {
+.mobile {
+  display: block !important;
+}
+  body {
+    overflow-x: hidden !important;
+  }
+  .desktop {
+    display: none;
+  }
+
+  .mobile {
+    padding: 0 17px;
+  }
+
+  .mobile .header {
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 40px;
+  }
+
+  .mobile h1 {
+    display: block;
+
+    font-family: "ProximaNova", sans-serif;
+    font-size: 29px;
+    line-height: 31px;
+
+  }
+
+  .mobile h4, h5 {
+    display: block;
+
+    text-align: left;
+
+    font-family: "Circe-Regular";
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .mobile h4 {
+    margin-top: 24px;
+
+    text-align: left;
+  }
+
+  .MobileButton {
+    display: block;
+
+    width: 100%;
+    height: 48px;
+
+    border-radius: 10px;
+    background: #FFDF4E;
+
+  }
+
+  .mobile .MobileButton {
+      margin-top: 20px;
+  }
+
+  .MobileButton h5 {
+    text-align: center;
+
+    line-height: 48px;
+  }
+
+  .header .headerImg img {
+    width: 110%;
+    margin-left: -17px;
+  }
+
+  .interests {
+    margin-top: 70px;
+  }
+
+  .interests img {
+    width: 95%;
+    margin-top: 30px;
+  }
+
+  .circle-back {
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 90vh;
+    margin-top: 47px;
+  }
+
+
+  .text-in-circle {
+    position: absolute;
+    z-index: 200;
+
+    align-self: center;
+
+    margin: 0 auto;
+  }
+
+  .text-in-circle {
+    position: absolute;
+    z-index: 200;
+
+    align-self: center;
+
+    margin: 0 auto;
+  }
+
+  .circle-back .text-in-circle h1, h6 {
+    text-align: center;
+  }
+
+  .circle-back .text-in-circle h6 {
+    width: 236px;
+
+    text-align: center;
+
+    font-family: "Circe-Regular";
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+
+  .text-in-circle h1 {
+    font-size: 40px;
+    line-height: 55px;
+  }
+
+  .circle-back img {
+    position: absolute;
+
+    width: 113%;
+    margin-top: 20px;
+  }
+
+  .circle-back .pad {
+    margin-top: 40px;
+  }
+
+  a.mobile-link  {
+    display: inline-block;
+
+    margin-top: 15px;
+
+    vertical-align: baseline;
+
+    color: #467C86;
+    border-bottom: 1px #467C86 solid;
+
+    font-size: 18px;
+     line-height: .95;
+    line-height: 25px;
+  }
+
+  .triangle-mobile {
+    display: block;
+
+    width: 98%;
+    margin-top: 65px;
+  }
+
+  .mobile-shop {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .bubbles {
+    margin-top: 4px;
+    margin-left: 25px;
+  }
+
+  .bubbles:first-child {
+    margin-right: 8px;
+  }
+
+  .yellow-back {
+    position: relative;
+  }
+
+  .fin {
+    position: absolute;
+    margin-top: 200px;
+  }
+
+  .yellow-back img.fin-back {
+    position: absolute;
+    width: 113%;
+    margin-left: -17px;
+    margin-top: 10px;
+    z-index: -10;
+  }
+
+  .yellow-back h1 {
+    text-align: center;
+  }
+
+  .yellow-back .MobileButton {
+    text-align: center;
+    background: white;
+    margin-top: 30px;
+  }
+
+  .a-fin {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .a-fin a {
+    color: white;
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  img.fin-logo  {
+    display: block;
+    width: 15%;
+    z-index: 100;
+    align-self: center;
+    margin-top: 40px;
+  }
+
 
 }
