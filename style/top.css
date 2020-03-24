@@ -748,3 +748,43 @@ img.ye {
     margin-top: 250px;
   }
 }
+
+/* 
+
+
+.container {
+  margin: 45vh 45vw;
+}
+
+.hover_container {
+  width: 0;
+  height: 0;
+}
+
+.hover_cycle {
+  position: fixed;
+  z-index: -1;
+
+  width: 0;
+  height: 0;
+  margin-top: -5px;
+  margin-left: 25px;
+
+  transition: .6s;
+
+  opacity: 50%;
+  border-radius: 50px;
+  background-color: blue;
+}
+
+.hovered_cycle {
+  width: 100px;
+  height: 100px;
+  margin-top: -55px;
+  margin-left: -25px;
+
+}
+
+.buy {
+  margin: 45vh 45vw;
+} */
