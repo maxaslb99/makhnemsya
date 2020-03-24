@@ -749,7 +749,11 @@ img.ye {
   }
 }
 
-/* 
+.link a {
+color: white;
+border-bottom: 1px white solid;
+}
+/*
 
 
 .container {
