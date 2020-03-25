@@ -1,7 +1,6 @@
 
 
 * {
-
   -webkit-transition: 2s;
 
   -webkit-font-smoothing: antialiased;
@@ -23,6 +22,10 @@ width: 100%;
 
 .container {
   margin: 45vh 45vw;
+}
+
+.iphone {
+  z-index: 100!important;
 }
 
 /* .hover_container {
