@@ -26,6 +26,7 @@ width: 100%;
 
 .iphone {
   z-index: 100!important;
+  position: relative;
 }
 
 /* .hover_container {
