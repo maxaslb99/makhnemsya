@@ -24,9 +24,6 @@ width: 100%;
   display: none;
 }
 
-.container {
-  margin: 45vh 45vw;
-}
 
 .iphone {
   position: relative;
@@ -227,6 +224,8 @@ h2  {
  }
 
 .group {
+    position: relative;
+
     overflow: hidden;
 
     height: 212px;
@@ -236,15 +235,13 @@ h2  {
 
  }
 .block3 {
-  -webkit-transition: all 0.5s ease-in-out;
--moz-transition: all 0.5s ease-in-out;
--o-transition: all 0.5s ease-in-out;
-transition: all 0.5s ease-in-out;
+ transition: 180s;
 }
 
  .group:hover {
+   left: -200px;
+
    transition: 180s;
-   transform: translateX(-10000px);
  }
 
 
