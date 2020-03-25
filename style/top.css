@@ -170,13 +170,18 @@ a, a:visited {
 
   font-size: 25px;
   line-height: 25px;
+
 }
 .block button {
   margin-bottom: 300px;
+
+    cursor: pointer;
 }
 
 
 .block button:hover {
+  cursor: pointer;
+
   background-color: #F7C778;
 }
 
@@ -837,9 +842,8 @@ height: 0;
 .hover_cycle {
 position: relative;
 z-index: -1;
-
-bottom: 0;
 right: -145px;
+bottom: 0;
 
 width: 0;
 height: 0;
@@ -851,13 +855,16 @@ background-color: #BBD5DB;
 
 .hovered_cycle {
 position: relative;
-
-bottom: 160px;
 right: 15px;
+bottom: 160px;
 
 width: 320px;
 height: 320px;
 
 border-radius: 300px;
 
+}
+.photo {
+  position: relative;
+  z-index: -1;
 }
