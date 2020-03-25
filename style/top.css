@@ -229,7 +229,14 @@ h2  {
     margin-top: 2224px;
     margin-left: -900px;
 
+
  }
+
+ .group:hover {
+   transition: 45s;
+   transform: translateX(-10000px);
+ }
+
 .photo {
   margin-top: -2180px;
 }
