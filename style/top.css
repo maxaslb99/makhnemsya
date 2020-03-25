@@ -25,8 +25,8 @@ width: 100%;
 }
 
 .iphone {
-  z-index: 100!important;
   position: relative;
+  z-index: 100!important;
 }
 
 /* .hover_container {
@@ -805,3 +805,6 @@ border-bottom: 1px white solid;
 .iphone {
   z-index: 100!important;
 } */
+.block5 img {
+  position: relative;
+}
