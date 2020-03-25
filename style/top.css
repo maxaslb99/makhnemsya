@@ -77,10 +77,12 @@ width: 100%;
   background-color: #ffff;
 }
 
-.logo {
-  padding: 0;
-}
+.logo { z-index: 2000;  display: block;  margin-right: 10px;  padding: 0;
 
+}
+.menu a  {
+  padding: 0!important;
+}
 a {
   font-family: "Circe-Regular";
 }
@@ -447,6 +449,9 @@ color: #ffffff;
   font-size: 120px;
 }
 
+.logo:hover {
+  cursor: pointer;
+}
 .block4 a {
     margin-left: 734px;
   }
