@@ -2,6 +2,10 @@
 
 * {
   -webkit-transition: 2s;
+  -webkit-transition: all 0.5s ease-in-out;
+-moz-transition: all 0.5s ease-in-out;
+-o-transition: all 0.5s ease-in-out;
+transition: all 0.5s ease-in-out;
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -231,11 +235,19 @@ h2  {
 
 
  }
+.block3 {
+  -webkit-transition: all 0.5s ease-in-out;
+-moz-transition: all 0.5s ease-in-out;
+-o-transition: all 0.5s ease-in-out;
+transition: all 0.5s ease-in-out;
+}
 
  .group:hover {
-   transition: 45s;
+   transition: 180s;
    transform: translateX(-10000px);
  }
+
+
 
 .photo {
   margin-top: -2180px;
